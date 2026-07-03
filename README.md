@@ -6,28 +6,22 @@ Automatically inserts "favicon.png" into the HTML `<head>` without editing the t
 ## Features
 - AutoFavicon does not require modifying the theme’s "base.html.twig".
 - It automatically inserts "favicon.png" into the HTML `<head>`.
-- It searches for "favicon.png" in `/user/data/media/` and in any page’s media folder.
+- It searches for "favicon.png" in `/user/data/media/`.
 
 - AutoFavicon は、Gravテーマ側の "base.html.twig" を編集する必要はありません。
 - "favicon.png" を HTML の `<head>` に自動挿入するプラグインです。
-- `/user/data/media/`または、任意ページのメディアフォルダから"favicon.png"を探します。
+- `/user/data/media/`から"favicon.png"を探します。
 
 ## Usage
 Just place favicon.png in one of the following locations:
 - `/user/data/media/favicon.png`
-- Any page’s media folder.
-    - eg.: `/user/pages/01.home/favicon.png`.
 
 上記の場所に favicon.png を置くだけで動作します。
 
 ## Direct installation using Grav Admin 2 plugin.
-In Tools → Direct Install, paste the following ZIP URL:
+In Tools → Direct Install, Upload the following ZIP :
 
-https://github.com/volty98/AutoFavicon/releases/latest/download/AutoFavicon.zip
-
-No manual download required — Grav will install the plugin automatically.
-
-Grav Admin 2 の Tools → Direct Install に、以下の ZIP URL を貼るだけでインストールできます：
+Tools → Direct Install に、以下の ZIP をアップロードするだけでインストールできます：
 
 https://github.com/volty98/AutoFavicon/releases/latest/download/AutoFavicon.zip
 
@@ -39,9 +33,7 @@ Place this folder in:
 
 and enable the plugin.
 
-ZIP を解凍しファイルを以下に配置し、有効化してください：
-
-`/user/plugins/autofavicon/`
+上記のフォルダを作成し、解凍したファイルを配置すれば導入されます。
 
 ## License
 MIT

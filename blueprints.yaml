@@ -16,5 +16,5 @@ form:
       markdown: true
       content: |
         このプラグインはテーマを編集せずに favicon.png を自動挿入します。
-        `/user/data/media/` またはページメディアに `favicon.png` を置くだけで動作します。
-        This plugin automatically inserts `favicon.png` from the media folder or page media into the HTML head without editing the theme. Just place `favicon.png` in `/user/data/media/` or in the page media, and it will work.
+        `/user/data/media/` に `favicon.png` を置くだけで動作します。
+        This plugin automatically inserts `favicon.png` from the media folder into the HTML head without editing the theme. Just place `favicon.png` in `/user/data/media/`, and it will work.
