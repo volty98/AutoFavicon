@@ -1,0 +1,20 @@
+name: AutoFavicon
+version: 1.0.0
+description: Automatically inserts favicon.png from media into the HTML head.
+icon: plug
+author:
+  name: volty98
+  email: ""
+  url: https://github.com/volty98/AutoFavicon
+license: MIT
+form:
+  validation: loose
+  fields:
+    info:
+      type: display
+      label: AutoFavicon
+      markdown: true
+      content: |
+        このプラグインはテーマを編集せずに favicon.png を自動挿入します。
+        `/user/data/media/` またはページメディアに `favicon.png` を置くだけで動作します。
+        This plugin automatically inserts `favicon.png` from the media folder or page media into the HTML head without editing the theme. Just place `favicon.png` in `/user/data/media/` or in the page media, and it will work.
