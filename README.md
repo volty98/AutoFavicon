@@ -1,0 +1,2 @@
+# AutoFavicon
+AutoFavicon (Grav Plugin)
